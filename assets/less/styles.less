@@ -1,0 +1,62 @@
+@import "base/normalize";
+@import "icons/font-awesome";
+@import "base/base";
+
+body {
+  background-color: #fff6f8;
+
+}
+
+.player {
+  width: 50%;
+  height: 50px;
+  margin: 20px;
+  padding: 14px 20px;
+  background-color: #2b2b2b;
+  color: #FFFFFF;
+
+  i {
+    float: left;
+    font-size: 20/14em;
+    padding-right: 5px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      font-size: 24/14em;
+      margin-bottom: -10px;
+    }
+  }
+
+  .boxProgress {
+    float: left;
+    margin: 3px 30px 3px 5px;
+    height: 16px;
+    width: 50%;
+    border: 1px solid #ffffff;
+
+    .progress {
+      height: 100%;
+      width: 0;
+      background-color: #fff;
+    }
+  }
+  .boxVolume {
+    float: left;
+    margin: 3px;
+    height: 16px;
+    width: 10%;
+    border: 1px solid #ffffff;
+
+    .volume {
+      height: 100%;
+      width: 100%;
+      background-color: #fff;
+    }
+  }
+
+}
+
+.active {
+  color: #ffffff;
+}
